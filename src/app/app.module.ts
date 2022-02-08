@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { StudentComponent } from './student/student.component';
 import { TwdbindingComponent } from './twdbinding/twdbinding.component';
 import { FormsModule } from '@angular/forms';
+import { StructuralIfComponent } from './structural-if/structural-if.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentComponent,
-    TwdbindingComponent
+    TwdbindingComponent,
+    StructuralIfComponent
   ],
   imports: [
     BrowserModule,
